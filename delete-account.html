@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>CardScanAI 계정 삭제 요청 | DGI Link</title>
+  <style>
+    :root { color-scheme: light; --navy: #0d1b2a; --teal: #00aF98; --muted: #52606d; --line: #dfe7ec; --surface: #f5f9fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--navy); background: var(--surface); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; line-height: 1.7; }
+    main { width: min(100% - 32px, 780px); margin: 0 auto; padding: 40px 0 56px; }
+    header, section { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: clamp(22px, 5vw, 40px); }
+    section { margin-top: 16px; }
+    .eyebrow { margin: 0 0 8px; color: var(--teal); font-size: .85rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.25; }
+    h2 { margin: 0 0 12px; font-size: 1.25rem; line-height: 1.4; }
+    p, li { font-size: 1rem; }
+    .lead { margin: 16px 0 0; color: var(--muted); }
+    .notice { border-left: 4px solid var(--teal); background: #effbf8; padding: 14px 16px; border-radius: 8px; }
+    ol, ul { margin: 12px 0 0; padding-left: 1.35rem; }
+    li + li { margin-top: 7px; }
+    a { color: #087e70; font-weight: 700; overflow-wrap: anywhere; }
+    .email { display: inline-block; margin-top: 4px; }
+    footer { color: var(--muted); font-size: .9rem; text-align: center; padding: 24px 12px 0; }
+    @media (min-width: 640px) { main { padding-top: 64px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">DGI Link · CardScanAI</p>
+      <h1>CardScanAI 계정 삭제 요청</h1>
+      <p class="lead">운영자: 디지아이링크(DGI Link)</p>
+    </header>
+
+    <section>
+      <h2>앱에서 직접 삭제</h2>
+      <p>CardScanAI 앱에 접근할 수 있는 경우, 앱 내 계정/설정 화면에서 직접 계정 삭제를 요청할 수 있습니다.</p>
+      <div class="notice">앱에 접근할 수 없는 경우에도 아래 절차에 따라 외부에서 삭제를 요청할 수 있습니다.</div>
+    </section>
+
+    <section>
+      <h2>외부 계정 삭제 요청 절차</h2>
+      <ol>
+        <li>CardScanAI 가입에 사용한 이메일 계정에서 <a href="mailto:contact@dgilink.com?subject=%5BCardScanAI%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD%5D">contact@dgilink.com</a>으로 메일을 보내 주세요.</li>
+        <li>메일 제목은 <strong>[CardScanAI 계정 삭제 요청]</strong>으로 작성해 주세요.</li>
+        <li>본문에는 CardScanAI 가입에 사용한 이메일 주소만 기재해 주세요.</li>
+      </ol>
+      <p class="notice">비밀번호, Google 비밀번호, 결제 정보, 신분증 전체 사본은 요청하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>본인 확인</h2>
+      <p>가입에 사용한 이메일 주소에서 요청한 경우를 기본 확인 수단으로 사용합니다. 확인에 필요한 추가 안내가 있을 때만 회신으로 안내합니다.</p>
+    </section>
+
+    <section>
+      <h2>삭제 대상 데이터</h2>
+      <p>계정 삭제가 처리되면 CardScanAI 서버에서 해당 사용자에게 연결된 다음 데이터를 삭제 대상으로 처리합니다.</p>
+      <ul>
+        <li>CardScanAI 인증 계정</li>
+        <li>서버의 <code>user_credits</code></li>
+        <li>사용자 연결 <code>purchase_records</code></li>
+        <li>사용자 연결 <code>welcome_email_deliveries</code></li>
+        <li>기타 CardScanAI 서버에서 해당 사용자에게 연결된 데이터</li>
+      </ul>
+      <p>앱 내부에서 삭제가 성공하면 기기의 로컬 CardScan 데이터베이스(명함, 연락처, 메모, 만남, 후속 연락 데이터), 예약된 앱 알림, 로컬 로그인 세션 및 최근 사용 계정 기록도 정리됩니다.</p>
+    </section>
+
+    <section>
+      <h2>삭제되지 않는 항목 및 예외</h2>
+      <ul>
+        <li>사용자가 휴대폰 기본 연락처에 별도로 저장한 연락처</li>
+        <li>사용자가 앱 밖으로 직접 내보낸 백업 파일</li>
+        <li>법령상 보존 의무가 있는 정보가 존재하는 경우, 해당 법정 보존 기간 동안의 정보</li>
+      </ul>
+      <p>삭제 요청의 처리 여부와 범위는 위 안내 및 적용 법령에 따라 확인됩니다.</p>
+    </section>
+
+    <section>
+      <h2>문의 및 관련 문서</h2>
+      <p>문의: <a class="email" href="mailto:contact@dgilink.com">contact@dgilink.com</a></p>
+      <ul>
+        <li><a href="https://dgilink.com/legal/privacy.html">개인정보처리방침</a></li>
+        <li><a href="https://dgilink.com/legal/terms.html">서비스 이용약관</a></li>
+      </ul>
+    </section>
+
+    <footer>© DGI Link (디지아이링크) · CardScanAI</footer>
+  </main>
+</body>
+</html>
